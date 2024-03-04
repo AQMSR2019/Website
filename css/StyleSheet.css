@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url("https://use.typekit.net/ewc2xay.css");
 
 label.error {
   color: #f00;
@@ -65,6 +65,7 @@ textarea.error {
   padding-bottom: 43.75px;
   padding-right: 25px;
   font-family: Bebas Neue, sans-serif;
+  text-shadow: none;
   font-size: 25px;
   text-align: center;
   letter-spacing:2px ;
@@ -111,6 +112,7 @@ textarea.error {
 }
 .navigation ul .submenu li{
   font-family: Bebas Neue, sans-serif;
+  text-shadow: none;
   text-align: center;
   font-size: 18px;
   border-bottom: 1px solid grey;
@@ -194,7 +196,7 @@ textarea.error {
   padding-top: 5px;
   padding-bottom: 15px;
   color: rgba(0, 0, 0, 100);
-  font-family: Stencil B, fantasy;
+  font-family: Anton, system-ui;
   text-shadow: none;
 }
 #HPContent{
