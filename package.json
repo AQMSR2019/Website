@@ -1,0 +1,12 @@
+{
+  "name": "aqmsr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/AQMSR-Global.js",
+  "scripts": {
+    "start": "node js/AQMSR-Global.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

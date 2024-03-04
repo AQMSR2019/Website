@@ -1,0 +1,343 @@
+label.error {
+  color: #f00;
+  font-weight: bold;
+}
+input.error,
+select.error,
+textarea.error {
+  border: 1px red solid;
+}
+
+/*Util*/
+.bar{
+  object-fit: cover;
+  display: block;
+  width: 100%;
+}
+.tech{
+  margin-bottom: 80px;
+}
+.tech h2{
+  margin: 25px 0 0 0;
+  color: #232323;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 1000;
+  padding: 5px 0 5px 0;
+}
+.tech h4{
+  margin-bottom: 20px;
+  color: #22178d;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+/* Header CSS */
+.logo{
+  position: relative;
+  float: left;
+  margin-top:25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+.heading h1{
+  position: relative;
+  float: left;
+  font-family: Bebas Neue, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 30px;
+  padding-top:26.5px;
+  padding-bottom: 26.5px;
+  padding-left: 10px;
+  margin: 0;
+}
+.navigation{
+  position: relative;
+  float: right;
+  padding-top: 43.75px;
+  padding-bottom: 43.75px;
+  padding-right: 25px;
+  font-family: Bebas Neue, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing:2px ;
+}
+.navigation ul{
+  margin: 0;
+}
+.navigation  ul  li{
+  display: inline;
+  margin-left:10px;
+  margin-right: 10px;
+}
+.navigation ul li a:link{
+  text-decoration: none;
+  color: #ededed;
+  padding-left: 5px;
+  padding-right: 5px;
+  letter-spacing: 5px;
+}
+.navigation ul li a:visited {
+  color: white;
+}
+.navigation ul li a:hover {
+  color: #5f30e2;
+}
+
+.navigation ul .submenu{
+  position: absolute;
+  width: fit-content;
+  left:17%;
+  padding:0;
+  background-color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0 20px 45px #00000020;
+  border-radius: 10px;
+  margin-top: -155px;
+  z-index: -999;
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+.navigation ul li:hover .submenu{
+  z-index: 99;
+  opacity: 1;
+  margin-top: 0;
+}
+.navigation ul .submenu li{
+  font-family: Bebas Neue, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  border-bottom: 1px solid grey;
+  padding: 10px 20px;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  margin: 0;
+}
+.navigation ul .submenu li:last-child{
+  border-bottom: none;
+}
+
+/*Footer CSS*/
+.footer{
+  padding:26.5px;
+}
+.footer h1 {
+  position: relative;
+  float: left;
+  font-family: Bebas Neue, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  padding-bottom: 10px;
+  font-size: 30px;
+  margin: 0;
+}
+.footer .logo{
+  margin:0;
+}
+.footer p{
+  font-size: 14px;
+}
+.footer svg{
+  float: right;
+  width:35px;
+  margin: 10px;
+}
+.footer a:link{
+  color: #ededed;
+}
+.footer a:visited{
+  color: #ededed;
+}
+.footer a:hover{
+  color: #5f30e2;
+}
+
+/*HomePage*/
+.gradient{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75));
+  top: 0;
+  left: 15%;
+}
+.background-img{
+  position: relative;
+}
+#ImgText {
+  position: absolute;
+  float: right;
+  width: fit-content;
+  top: 20%;
+  left: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#ImgText p{
+  font-size: 24px;
+  padding-left: 5px;
+  padding-right:5px;
+  margin: 0;
+  width: fit-content;
+  font-family: Bebas Neue, sans-serif ;
+  color: rgba(0, 0, 0, 100);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#ImgText h1,h2{
+  padding-top: 5px;
+  padding-bottom: 15px;
+  color: rgba(0, 0, 0, 100);
+  font-family: "Stencil Std", fantasy;
+  text-shadow: none;
+}
+#HPContent{
+  width: fit-content;
+  padding:80px;
+}
+#HPContent img{
+  position: relative;
+  float: right;
+  width: 100%;
+}
+#HPContent h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #05467c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+}
+#HPContent h2 {
+  color: #232323;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  line-height: 1.3;
+  font-weight: 700;
+  transition: .5s;
+  text-transform: capitalize;
+  font-size: 39px;
+  margin-bottom: 20px;
+}
+#HPContent h2  span {
+  text-transform: capitalize;
+  color: #05467c;
+}
+#HPContent p {
+  font-family: Poppins, sans-serif;
+  color: #6d6d6d;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+/*Services*/
+#Services section .container a{
+  font-size:16px;
+  color: #1f1f1f;
+  line-height: 28px;
+  text-decoration: none;
+}
+#Services section .container a:hover .box{
+  box-shadow: 0 0 5px 5px #5f30e2;
+}
+.box{
+  width:30%;
+  float:left;
+  background-color: #ededed;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px grey;
+  margin: 40px 20px;
+}
+.box img{
+  width:100%;
+  height:200px;
+  border-radius: 5px 5px  0 0;
+}
+.box h3{
+  text-align: center;
+  margin-top:15px;
+}
+.box p{
+  font-weight: normal;
+  font-size:16px;
+  line-height: 28px;
+  height:40%;
+  padding: 0 15px 15px 15px;
+  overflow: hidden;
+}
+
+/*IT-Consultation*/
+#IT-Consultation .background-img .gradient{
+  position: absolute;
+  height: 100%;
+  width: 75%;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+  top: 0;
+  left: 0;
+}
+#IT-Consultation .background-img h3{
+  position: absolute;
+  width: fit-content;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  line-height: 1.3;
+  font-weight: 700;
+}
+#IT-Consultation section .container{
+  padding: 50px 80px 50px 80px;
+}
+#IT-Consultation section p{
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #6c757d;
+  letter-spacing: 0.5px;
+}
+
+/*Man-Consultation*/
+#Man-Consultation .background-img .gradient{
+  position: absolute;
+  height: 100%;
+  width: 75%;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+  top: 0;
+  left: 0;
+}
+#Man-Consultation .background-img h3{
+  position: absolute;
+  width: fit-content;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  line-height: 1.3;
+  font-weight: 700;
+}
+#Man-Consultation section .container{
+  padding: 50px 80px 50px 80px;
+}
+#Man-Consultation section p{
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #6c757d;
+  letter-spacing: 0.5px;
+}
