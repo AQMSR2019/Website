@@ -64,8 +64,7 @@ textarea.error {
   padding-top: 43.75px;
   padding-bottom: 43.75px;
   padding-right: 25px;
-  font-family: Bebas Neue, sans-serif;
-  text-shadow: none;
+  font-family: Bebas Neue, fantasy;
   font-size: 25px;
   text-align: center;
   letter-spacing:2px ;
@@ -198,6 +197,12 @@ textarea.error {
   color: rgba(0, 0, 0, 100);
   font-family: Anton, system-ui;
   text-shadow: none;
+}
+#ImgText h1{
+font-size: 4vw;
+}
+#ImgText h2{
+  font-size: 3vw;
 }
 #HPContent{
   width: fit-content;
