@@ -2,16 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-label.error {
-  color: #f00;
-  font-weight: bold;
-}
-input.error,
-select.error,
-textarea.error {
-  border: 1px red solid;
-}
-
 /*Util*/
 .bar{
   object-fit: cover;
@@ -52,6 +42,7 @@ textarea.error {
   float: left;
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
+  letter-spacing: 2px;
   text-decoration: none;
   font-size: 1.972vw;
   padding-top:1.742vw;
@@ -284,8 +275,8 @@ font-size: 4vw;
   overflow: hidden;
 }
 
-/*IT-Consultation*/
-#IT-Consultation .background-img .gradient{
+/*IT-Consultation , Man-Consultation , Arch-Consultation, Aboutus*/
+#IT-Consultation .background-img .gradient,#Man-Consultation .background-img .gradient,#Arch-Consultation .background-img .gradient, #AboutUs .background-img .gradient, #ContactUs .background-img .gradient{
   position: absolute;
   height: 100%;
   width: 75%;
@@ -293,7 +284,7 @@ font-size: 4vw;
   top: 0;
   left: 0;
 }
-#IT-Consultation .background-img h3{
+#IT-Consultation .background-img h3, #Man-Consultation .background-img h3, #Arch-Consultation .background-img h3, #AboutUs .background-img h3, #ContactUs .background-img h3{
   position: absolute;
   width: fit-content;
   top: 50%;
@@ -307,10 +298,10 @@ font-size: 4vw;
   line-height: 1.3;
   font-weight: 700;
 }
-#IT-Consultation section .container{
-  padding: 50px 80px 50px 80px;
+#IT-Consultation section .container, #Man-Consultation section .container,#Arch-Consultation section .container,#AboutUs section .container,#ContactUs section .container {
+  padding: 80px 80px 80px 80px;
 }
-#IT-Consultation section p{
+#IT-Consultation section p, #Man-Consultation section p,#Arch-Consultation section p,#AboutUs section p{
   font-family: Poppins, sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -319,72 +310,89 @@ font-size: 4vw;
   letter-spacing: 0.5px;
 }
 
-/*Man-Consultation*/
-#Man-Consultation .background-img .gradient{
-  position: absolute;
-  height: 100%;
-  width: 75%;
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0));
-  top: 0;
-  left: 0;
+#AboutUs .container h2{
+  color: #232323;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 1000;
+  padding: 5px 0 5px 0;
 }
-#Man-Consultation .background-img h3{
-  position: absolute;
-  width: fit-content;
-  top: 50%;
-  left: 10%;
-  transform: translateY(-50%);
-  font-size: 45px;
-  color: #fff;
+#AboutUs .container h4{
   margin-bottom: 20px;
+  color: #22178d;
   font-family: Poppins, sans-serif;
   font-style: normal;
   line-height: 1.3;
-  font-weight: 700;
-}
-#Man-Consultation section .container{
-  padding: 50px 80px 50px 80px;
-}
-#Man-Consultation section p{
-  font-family: Poppins, sans-serif;
-  font-size: 16px;
   font-weight: 600;
-  line-height: 1.5;
-  color: #6c757d;
-  letter-spacing: 0.5px;
+}
+#AboutUs .container .para{
+ font-size: 20px;
 }
 
-/*Arch-Consultation*/
-#Arch-Consultation .background-img .gradient{
-  position: absolute;
-  height: 100%;
-  width: 75%;
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0));
-  top: 0;
-  left: 0;
-}
-#Arch-Consultation .background-img h3{
-  position: absolute;
-  width: fit-content;
-  top: 50%;
-  left: 10%;
-  transform: translateY(-50%);
-  font-size: 45px;
-  color: #fff;
-  margin-bottom: 20px;
+#ContactUs .form-class h3{
   font-family: Poppins, sans-serif;
   font-style: normal;
+  margin-bottom: 25px;
   line-height: 1.3;
-  font-weight: 700;
+  font-weight: 350;
+  font-size: 35px;
+  color: black;
 }
-#Arch-Consultation section .container{
-  padding: 50px 80px 50px 80px;
+#ContactUs form button{
+  width:fit-content;
 }
-#Arch-Consultation section p{
+#ContactUs form select{
+  text-align: center;
+  background-color: #1f1f1f;
+  color: #ededed;
+}
+#ContactUs .form-class{
+  box-shadow: 0 0 5px 0 grey;
+  background: #fff;
+  padding: 27px 80px 27px;
+  border-radius: 20px;
+}
+#ContactUs form input{
   font-family: Poppins, sans-serif;
+  padding: 15px 20px;
   font-size: 16px;
   font-weight: 600;
-  line-height: 1.5;
-  color: #6c757d;
-  letter-spacing: 0.5px;
+  color: black;
+}
+#ContactUs form textarea{
+  font-family: Poppins, sans-serif;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+#ContactUs form button:hover{
+  background-color: #5f30e2;
+  color: red;
+}
+#ContactUs .details{
+  box-shadow: 0 0 5px 0 grey;
+  background: rgb(44, 41, 41);
+  padding: 80px 80px;
+  border-radius: 20px;
+  color: #ededed;
+  text-shadow: none;
+}
+#ContactUs .details img{
+  width: 75px;
+}
+#ContactUs .details p{
+  padding-top: 5px;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+}
+#ContactUs .details .row:nth-child(2){
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#validatename , #validatephone, #validateemail,#validatedetails{
+  font-weight: bold;
+  color: red;
+  display: none;
 }
