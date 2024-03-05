@@ -42,9 +42,12 @@ textarea.error {
 .logo{
   position: relative;
   float: left;
-  margin-top:25px;
-  margin-bottom: 25px;
-  margin-left: 25px;
+  margin-top: 1.644vw;
+  margin-bottom: 1.644vw;
+  margin-left: 1.644vw;
+}
+header img{
+  width:4.602vw;
 }
 .heading h1{
   position: relative;
@@ -52,37 +55,36 @@ textarea.error {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   text-decoration: none;
-  font-size: 30px;
-  padding-top:26.5px;
-  padding-bottom: 26.5px;
-  padding-left: 10px;
+  font-size: 1.972vw;
+  padding-top:1.742vw;
+  padding-bottom: 1.742vw;
+  padding-left: 0.657vw;
   margin: 0;
 }
 .navigation{
   position: relative;
   float: right;
-  padding-top: 43.75px;
-  padding-bottom: 43.75px;
-  padding-right: 25px;
+  padding-top: 2.876vw;
+  padding-bottom: 2.876vw;
+  padding-right: 1.644vw;
   font-family: Bebas Neue, fantasy;
-  font-size: 25px;
+  font-size: 1.644vw;
   text-align: center;
-  letter-spacing:2px ;
 }
 .navigation ul{
   margin: 0;
 }
 .navigation  ul  li{
   display: inline;
-  margin-left:10px;
-  margin-right: 10px;
+  margin-left:0.657vw;
+  margin-right: 0.657vw;
 }
 .navigation ul li a:link{
   text-decoration: none;
   color: #ededed;
-  padding-left: 5px;
-  padding-right: 5px;
-  letter-spacing: 5px;
+  padding-left: 0.329vw;
+  padding-right: 0.329vw;
+  letter-spacing: 0.329vw;
 }
 .navigation ul li a:visited {
   color: white;
@@ -99,7 +101,7 @@ textarea.error {
   background-color: rgba(0, 0, 0, 0.87);
   box-shadow: 0 20px 45px #00000020;
   border-radius: 10px;
-  margin-top: -155px;
+  margin-top: -10.191vw;
   z-index: -999;
   opacity: 0;
   transition: all ease 0.5s;
@@ -113,9 +115,9 @@ textarea.error {
   font-family: Bebas Neue, sans-serif;
   text-shadow: none;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.183vw;
   border-bottom: 1px solid grey;
-  padding: 10px 20px;
+  padding: 0.657vw 1.315vw;
   display: block;
   width: 100%;
   text-decoration: none;
@@ -178,13 +180,13 @@ textarea.error {
   width: fit-content;
   top: 20%;
   left: 50%;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 1.315vw;
+  padding-right: 1.315vw;
 }
 #ImgText p{
-  font-size: 24px;
-  padding-left: 5px;
-  padding-right:5px;
+  font-size: 1.578vw;
+  padding-left: 0.329vw;
+  padding-right:0.329vw;
   margin: 0;
   width: fit-content;
   font-family: Bebas Neue, sans-serif ;
