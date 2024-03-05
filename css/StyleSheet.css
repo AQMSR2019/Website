@@ -45,8 +45,6 @@ textarea.error {
   margin-top: 1.644vw;
   margin-bottom: 1.644vw;
   margin-left: 1.644vw;
-}
-header img{
   width:4.602vw;
 }
 .heading h1{
@@ -136,9 +134,10 @@ header img{
   float: left;
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
+  padding-left: 0.657vw;
   text-decoration: none;
-  padding-bottom: 10px;
-  font-size: 30px;
+  padding-bottom: 0.657vw;
+  font-size: 1.971vw;
   margin: 0;
 }
 .footer .logo{
